@@ -1,0 +1,8 @@
+
+
+
+<button type="button" (click)="getAll()" class="btnSearch">Get all the pokemons</button>
+<li class="list-group-item" *ngFor="let pokemon of pokemons.results">
+  {{pokemon.name}}
+</li>
+
